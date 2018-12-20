@@ -1,6 +1,8 @@
 # Retore database in Powershell
 
-run `docker-compose up -d`
+Run `docker-compose up -d`
+
+If you're having trouble with path-mapping in a windows environment, set the environment variable `export COMPOSE_CONVERT_WINDOWS_PATHS=1`.
 
 Place .bak file in `./database-backup`-folder created from docker.
 
