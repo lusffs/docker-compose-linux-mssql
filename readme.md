@@ -1,4 +1,4 @@
-# Retore database in Powershell
+# Restore database in Powershell
 
 Run `docker-compose up -d`
 
